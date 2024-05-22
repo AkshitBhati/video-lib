@@ -1,0 +1,47 @@
+.navbar__wrapper{
+    width: 100%;
+    border-bottom:1px solid gray;
+    padding: 10px;
+    
+}
+.navbar__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__name{
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.navbar__name h2{
+    color: #fff;
+    font-weight: 400;
+
+}
+
+.navbar__options{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar__user {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 1px solid gray;
+}
+
+.navbar__user img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
